@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+:root {
+    --font: "Roboto Mono", monospace;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --wallpaper: url("http://127.0.0.1:5500/assets/static/wallpapers/dark.png");
+        --text: rgb(235, 235, 235);
+        --background: rgb(20, 20, 20);
+    }
+}
+
+@media (prefers-color-scheme: light) {
+    :root {
+        --wallpaper: url("../wallpapers/light.png");
+        --text: rgb(20, 20, 20);
+        --background: rgb(235, 235, 235);
+    }
+}
+
+body {
+    background-image: var(--wallpaper);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-color: var(--background);
+    color: var(--text);
+    height: 100vh; 
+    margin: 0; 
+    overflow: hidden; 
+    font-family: var(--font);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#date, #time{
+    margin: 0px;
+}
+span.spacerIcon {
+    margin-right: 10px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.infobox {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+}
+#infopanel > ul > li:not(:last-child)> .infobox  {
+    margin-bottom: 10px;
+}
+
+.date {
+    font-size: 0.75em; /*use "em" mesurement. because its based on the default element size, which is better for mobile support.
+    mobile is getting their own page at some point btw (less detail) (maybe) 
+    when I get a domain tho so I can do m.domain.tld */ 
+    
+}
+
+.app {
+    height: max-content;
+    margin:  0.25em;
+}
