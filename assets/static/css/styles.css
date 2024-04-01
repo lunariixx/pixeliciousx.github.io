@@ -6,7 +6,7 @@
 
 @media (prefers-color-scheme: dark) {
     :root {
-        --wallpaper: url("http://127.0.0.1:5500/assets/static/wallpapers/dark.png");
+        --wallpaper: url("https://pixeliciousx.github.io/assets/static/wallpapers/dark.png");
         --text: rgb(235, 235, 235);
         --background: rgb(20, 20, 20);
     }
@@ -14,7 +14,7 @@
 
 @media (prefers-color-scheme: light) {
     :root {
-        --wallpaper: url("../wallpapers/light.png");
+        --wallpaper: url("https://pixeliciousx.github.io/assets/static/wallpapers/light.png");
         --text: rgb(20, 20, 20);
         --background: rgb(235, 235, 235);
     }
@@ -61,10 +61,7 @@ ul {
 }
 
 .date {
-    font-size: 0.75em; /*use "em" mesurement. because its based on the default element size, which is better for mobile support.
-    mobile is getting their own page at some point btw (less detail) (maybe) 
-    when I get a domain tho so I can do m.domain.tld */ 
-    
+    font-size: 0.75em;
 }
 
 .app {
