@@ -6,7 +6,7 @@
 
 @media (prefers-color-scheme: dark) {
     :root {
-        --wallpaper: url("https://k1lls0mebody.de/assets/static/wallpapers/dark.png");
+        --wallpaper: url("https://pixeliciousx-github-io.vercel.app/assets/static/wallpapers/dark.png");
         --text: rgb(235, 235, 235);
         --background: rgb(20, 20, 20);
     }
@@ -14,7 +14,7 @@
 
 @media (prefers-color-scheme: light) {
     :root {
-        --wallpaper: url("https://k1lls0mebody.de/assets/static/wallpapers/light.png");
+        --wallpaper: url("https://pixeliciousx-github-io.vercel.app/assets/static/wallpapers/light.png");
         --text: rgb(20, 20, 20);
         --background: rgb(235, 235, 235);
     }
